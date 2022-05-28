@@ -1,13 +1,15 @@
 import logging
+import os.path
+import pathlib
 
 import pandas as pd
 import yfinance
 from contexttimer import Timer
 from joblib import Memory
 from singleton_decorator import singleton
-import pathlib
+
 mem = Memory(location='~/.cache', verbose=1)
-import os.path
+
 
 @singleton
 class DBConn(object):
