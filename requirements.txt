@@ -1,8 +1,10 @@
 pandas>=1.2.4
-cvxportfolio>=0.0.12
 yfinance>=0.1.70
 pathlib>=1.0.1
 contexttimer>=0.3.3
 joblib>=1.0.1
 python-dateutil>=2.8.1
 numpy>=1.20.2
+pyfolio>=0.9.2
+plotly>=5.8.0
+git+https://github.com/cvxgrp/cvxportfolio.git
